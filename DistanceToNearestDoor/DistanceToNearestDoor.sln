@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistanceToNearestDoor", "DistanceToNearestDoor.vcxproj", "{E421ADF8-169C-48A8-98D6-C4E7DF4244B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E421ADF8-169C-48A8-98D6-C4E7DF4244B8}.Debug|x64.ActiveCfg = Debug|x64
+		{E421ADF8-169C-48A8-98D6-C4E7DF4244B8}.Debug|x64.Build.0 = Debug|x64
+		{E421ADF8-169C-48A8-98D6-C4E7DF4244B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{E421ADF8-169C-48A8-98D6-C4E7DF4244B8}.Debug|x86.Build.0 = Debug|Win32
+		{E421ADF8-169C-48A8-98D6-C4E7DF4244B8}.Release|x64.ActiveCfg = Release|x64
+		{E421ADF8-169C-48A8-98D6-C4E7DF4244B8}.Release|x64.Build.0 = Release|x64
+		{E421ADF8-169C-48A8-98D6-C4E7DF4244B8}.Release|x86.ActiveCfg = Release|Win32
+		{E421ADF8-169C-48A8-98D6-C4E7DF4244B8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C619F933-AF0B-4359-9642-3B9A8DCA1B98}
+	EndGlobalSection
+EndGlobal

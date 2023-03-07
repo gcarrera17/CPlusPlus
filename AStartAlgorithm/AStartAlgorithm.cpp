@@ -3,18 +3,37 @@
 
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+using namespace std;
+
+#define ROW 9
+#define COL 10
+
+struct cell {
+    int x, y;
+    int parent_x, parent_y;
+    double f, g, h;
+};
+
+// A utility Function to check whether given cell(row, col)
+// is a valid cell or not 
+bool isValid(int row, int col) {
+    // Return true if row and column are in range
+    return ((row >= 0) && (row < ROW)) && ((col >= 0) && (col < COL));
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+// A utility function to check whether the given cell is
+// block or not
+bool isUnBlocked(int grid[][COL], int row, int col) {
+    if (grid[row][col] == 1)
+        return true;
+    else
+        return false;
+}
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+// A utility Function to check whether destination cell has
+// been reached or not
+
+int main()
+{
+    
+}
